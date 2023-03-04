@@ -72,11 +72,11 @@ enum GAME_MODE game () __banked {
     );
 
     // 背景データのパレット
-    SMS_mapROMBank(tile__tiles__bin_bank);
+    SMS_mapROMBank(tile__palette__bin_bank);
     SMS_loadBGPalette(tile__palette__bin);
 
     // スプライトデータのパレット
-    SMS_mapROMBank(character__tiles__bin_bank);
+    SMS_mapROMBank(character__palette__bin_bank);
     SMS_loadSpritePalette(character__palette__bin);
 
     for (;;){
