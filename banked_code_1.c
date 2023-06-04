@@ -50,8 +50,17 @@ enum GAME_MODE title (void) __banked {
         PSGFrame();
 
         // Ⅰボタンを押したら、ゲーム画面へ
+        //if ( SMS_getKeysPressed() & PORT_A_KEY_1 ) {
+        //    break;
+        //}
+
+        SMS_mapROMBank(ok_psg_bank);
+        PSGSFXFrame();
+
         if ( SMS_getKeysPressed() & PORT_A_KEY_1 ) {
-            break;
+            // Ⅰボタンを押したら、効果音
+            SMS_mapROMBank(ok_psg_bank);
+            PSGSFXPlay( ok_psg, SFX_CHANNELS2AND3 );
         }
     }
 

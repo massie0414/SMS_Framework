@@ -4,9 +4,6 @@ extern const unsigned char	title__tiles__bin[2880];
 extern const unsigned char	title__tilemap__bin[1536];
 #define				title__tilemap__bin_size 1536
 #define				title__tilemap__bin_bank 11
-extern const unsigned char	bgm_psg[204];
-#define				bgm_psg_size 204
-#define				bgm_psg_bank 11
 extern const unsigned char	map01_bin[192];
 #define				map01_bin_size 192
 #define				map01_bin_bank 11
@@ -16,9 +13,12 @@ extern const unsigned char	character__tiles__bin[128];
 extern const unsigned char	tile__tiles__bin[96];
 #define				tile__tiles__bin_size 96
 #define				tile__tiles__bin_bank 11
-extern const unsigned char	ok_psg[44];
-#define				ok_psg_size 44
+extern const unsigned char	ok_psg[40];
+#define				ok_psg_size 40
 #define				ok_psg_bank 11
+extern const unsigned char	bgm_psg[31];
+#define				bgm_psg_size 31
+#define				bgm_psg_bank 11
 extern const unsigned char	character__palette__bin[16];
 #define				character__palette__bin_size 16
 #define				character__palette__bin_bank 11
