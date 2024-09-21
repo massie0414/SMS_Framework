@@ -15,7 +15,8 @@ del bank12.c > nul
 del bank12.rel > nul
 del bank12.asm > nul
 
-assets2banks data --firstbank=11 --singleheader=assets.h --compile
+rem assets2banks data --firstbank=11 --singleheader=assets.h --compile
+rem assets2banks data --firstbank=11 --singleheader=assets.h
 assets2banks data --firstbank=11 --singleheader=assets.h
 
 rem 計測終了

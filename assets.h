@@ -4,6 +4,9 @@ extern const unsigned char	title__tiles__bin[2880];
 extern const unsigned char	title__tilemap__bin[1536];
 #define				title__tilemap__bin_size 1536
 #define				title__tilemap__bin_bank 11
+extern const unsigned char	TEST_MBM[649];
+#define				TEST_MBM_size 649
+#define				TEST_MBM_bank 11
 extern const unsigned char	map01_bin[192];
 #define				map01_bin_size 192
 #define				map01_bin_bank 11
