@@ -1,3 +1,16 @@
 /.vs
 /.vscode
 /x64
+/MBMlib.c
+/MBMlib.h
+/MBMlib.rel
+/PSGlib.c
+/PSGlib.h
+/PSGlib.rel
+/SMSlib.c
+/SMSlib.h
+/SMSlib.lib
+/PSGTool/License.txt
+/PSGTool/PSGTool.jar
+/PSGTool/ReadMe.txt
+/PSGTool/vgm2psg.exe
